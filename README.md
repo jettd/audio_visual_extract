@@ -134,4 +134,34 @@ Models and Goals:
 - Semantic Segmentation (U-Net, DeepLab, Mask R-CNN): Classify each pixel into a category, understanding objects and context.
 - Depth Estimation (Monodepth, DepthNet): Understand the 3D structure of the scene.
 - Color Segmentation (K-means, GMM): Identify objects or features based on color.
-- Edge/Corner/
+- Edge/Corner/Line Detection (Canny, Harris, Hough): Detect fundamental features in vision tasks.
+- Optical Flow (Lucas-Kanade, Farneback, RAFT): Understand motion and temporal changes.
+
+## Sound
+Models and Goals:
+
+- Sound Event Detection (YAMNet, SoundNet): Identify different sound events.
+- Speech Recognition (DeepSpeech, Wav2Vec, Whisper): Transcribe spoken words.
+- Speaker Identification (i-vector, x-vector): Identify speakers by voice.
+- Emotion Recognition (OpenSMILE, SER models): Detect emotions from vocal cues.
+- Sound Localization (Beamforming, Binaural): Determine sound origins.
+- Sound Separation and Enhancement (Deep Clustering, U-Net): Isolate or enhance sounds.
+- Audio-to-MIDI Conversion (Onsets and Frames, Music Transformer): Convert audio to MIDI.
+- Acoustic Scene Classification (CNNs, DCASE): Categorize environments by sound.
+
+## Touch
+- **Implementation Not Yet Started**
+
+## Internal Monitoring
+Models and Goals:
+
+- Temperature, Vibration, Voltage/Current, Strain, and Proximity Sensors: Monitor internal states.
+- Anomaly Detection (Isolation Forest, One-Class SVM, Autoencoders): Identify operational deviations.
+- Predictive Maintenance: Predict component maintenance needs.
+- Reinforcement Learning: Adjust operations for optimal performance.
+- Time-Series Analysis (ARIMA, LSTM): Analyze sensor data trends and predict future states.
+
+## System Architecture with ROS
+Utilizing ROS (Robot Operating System) allows for modular integration of the aforementioned components, where each can operate as a separate node within the ROS network.
+
+
