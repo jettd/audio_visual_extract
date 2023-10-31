@@ -1,0 +1,2 @@
+[MASTER]
+init-hook='import sys; sys.path.append("opt/ros/noetic/lib/python2.7/dist-packages")'
