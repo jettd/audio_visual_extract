@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /workspaces/audio_visual_extract/catkin_ws/install/setup.sh
