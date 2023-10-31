@@ -1,0 +1,8 @@
+prefix=/workspaces/audio_visual_extract/catkin_ws/install
+
+Name: sense_aggregation
+Description: Description of sense_aggregation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/workspaces/audio_visual_extract/catkin_ws/devel
+
+Name: aud_extract
+Description: Description of aud_extract
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

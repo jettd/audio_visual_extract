@@ -1,2 +1,2 @@
-vis_extract
+aud_extract:internal_extract:sense_aggregation:vis_extract
 -DCATKIN_DEVEL_PREFIX=/workspaces/audio_visual_extract/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/workspaces/audio_visual_extract/catkin_ws/install -G Unix Makefiles
