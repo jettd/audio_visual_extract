@@ -1,0 +1,8 @@
+prefix=/workspaces/audio_visual_extract/catkin_ws/install
+
+Name: vis_extract
+Description: Description of vis_extract
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
