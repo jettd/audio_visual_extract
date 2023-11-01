@@ -52,3 +52,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vis_extract" TYPE FILE FILES "/workspaces/audio_visual_extract/catkin_ws/src/vis_extract/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/vis_extract" TYPE PROGRAM FILES "/workspaces/audio_visual_extract/catkin_ws/build/vis_extract/catkin_generated/installspace/corner.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/vis_extract" TYPE PROGRAM FILES "/workspaces/audio_visual_extract/catkin_ws/build/vis_extract/catkin_generated/installspace/edge.py")
+endif()
+

@@ -54,6 +54,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/noetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in"
   "/opt/ros/noetic/share/catkin/cmake/templates/pkgConfig.cmake.in"
   "/opt/ros/noetic/share/catkin/cmake/templates/rosinstall.in"
+  "/opt/ros/noetic/share/catkin/cmake/templates/script.py.in"
   "/opt/ros/noetic/share/catkin/cmake/templates/setup.bash.in"
   "/opt/ros/noetic/share/catkin/cmake/templates/setup.sh.in"
   "/opt/ros/noetic/share/catkin/cmake/templates/setup.zsh.in"
@@ -154,6 +155,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/workspaces/audio_visual_extract/catkin_ws/src/sense_aggregation/package.xml"
   "/workspaces/audio_visual_extract/catkin_ws/src/vis_extract/CMakeLists.txt"
   "/workspaces/audio_visual_extract/catkin_ws/src/vis_extract/package.xml"
+  "/workspaces/audio_visual_extract/catkin_ws/src/vis_extract/src/corner.py"
+  "/workspaces/audio_visual_extract/catkin_ws/src/vis_extract/src/edge.py"
   )
 
 # The corresponding makefile is:
